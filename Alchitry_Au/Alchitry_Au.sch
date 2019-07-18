@@ -1,0 +1,320 @@
+EESchema Schematic File Version 5
+LIBS:Alchitry_Au-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2019-03-06"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Alchitry_Au:Alchitry_Shield B1
+U 1 1 5D31855D
+P 2475 2100
+F 0 "B1" H 2475 3267 50  0000 C CNN
+F 1 "Alchitry_Shield" H 2475 3176 50  0000 C CNN
+F 2 "Alchitry_Au:Alchitry_Conn" H 2475 2100 50  0001 C CNN
+F 3 "" H 2475 2100 50  0001 C CNN
+	1    2475 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alchitry_Au:Alchitry_Shield B3
+U 1 1 5D31B10C
+P 5300 2100
+F 0 "B3" H 5300 3267 50  0000 C CNN
+F 1 "Alchitry_Shield" H 5300 3176 50  0000 C CNN
+F 2 "Alchitry_Au:Alchitry_Conn" H 5300 2100 50  0001 C CNN
+F 3 "" H 5300 2100 50  0001 C CNN
+	1    5300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alchitry_Au:Alchitry_Shield B2
+U 1 1 5D31D078
+P 2475 5400
+F 0 "B2" H 2475 6567 50  0000 C CNN
+F 1 "Alchitry_Shield" H 2475 6476 50  0000 C CNN
+F 2 "Alchitry_Au:Alchitry_Conn" H 2475 5400 50  0001 C CNN
+F 3 "" H 2475 5400 50  0001 C CNN
+	1    2475 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alchitry_Au:Alchitry_Shield B4
+U 1 1 5D320B9C
+P 5300 5400
+F 0 "B4" H 5300 6567 50  0000 C CNN
+F 1 "Alchitry_Shield" H 5300 6476 50  0000 C CNN
+F 2 "Alchitry_Au:Alchitry_Conn" H 5300 5400 50  0001 C CNN
+F 3 "" H 5300 5400 50  0001 C CNN
+	1    5300 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 1450 3100 1450
+Wire Wire Line
+	3100 1450 3100 2050
+Wire Wire Line
+	2225 2050 1850 2050
+Wire Wire Line
+	1850 2050 1850 3250
+Wire Wire Line
+	2225 3250 1850 3250
+Connection ~ 1850 3250
+Wire Wire Line
+	1850 3250 1850 3675
+Wire Wire Line
+	2725 2050 3100 2050
+Connection ~ 3100 2050
+Wire Wire Line
+	3100 2050 3100 2650
+Wire Wire Line
+	2725 2650 3100 2650
+Connection ~ 3100 2650
+Wire Wire Line
+	3100 2650 3100 3250
+Wire Wire Line
+	2725 3250 3100 3250
+Connection ~ 3100 3250
+Wire Wire Line
+	3100 3250 3100 3650
+$Comp
+L power:GND #PWR01
+U 1 1 5D34CF87
+P 1850 3675
+F 0 "#PWR01" H 1850 3425 50  0001 C CNN
+F 1 "GND" H 1855 3502 50  0000 C CNN
+F 2 "" H 1850 3675 50  0001 C CNN
+F 3 "" H 1850 3675 50  0001 C CNN
+	1    1850 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5D34D312
+P 3100 3650
+F 0 "#PWR03" H 3100 3400 50  0001 C CNN
+F 1 "GND" H 3105 3477 50  0000 C CNN
+F 2 "" H 3100 3650 50  0001 C CNN
+F 3 "" H 3100 3650 50  0001 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 2650 5925 3250
+Wire Wire Line
+	5550 3250 5925 3250
+Wire Wire Line
+	5925 3250 5925 3650
+Wire Wire Line
+	5550 1450 5925 1450
+Wire Wire Line
+	4675 2050 4675 2650
+Connection ~ 5925 2050
+Wire Wire Line
+	5925 1450 5925 2050
+Connection ~ 5925 2650
+Wire Wire Line
+	5550 2650 5925 2650
+Wire Wire Line
+	5550 2050 5925 2050
+Wire Wire Line
+	5925 2050 5925 2650
+Wire Wire Line
+	4675 3250 4675 3675
+Connection ~ 5925 3250
+$Comp
+L power:GND #PWR07
+U 1 1 5D354430
+P 5925 3650
+F 0 "#PWR07" H 5925 3400 50  0001 C CNN
+F 1 "GND" H 5930 3477 50  0000 C CNN
+F 2 "" H 5925 3650 50  0001 C CNN
+F 3 "" H 5925 3650 50  0001 C CNN
+	1    5925 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D35443B
+P 4675 3675
+F 0 "#PWR05" H 4675 3425 50  0001 C CNN
+F 1 "GND" H 4680 3502 50  0000 C CNN
+F 2 "" H 4675 3675 50  0001 C CNN
+F 3 "" H 4675 3675 50  0001 C CNN
+	1    4675 3675
+	1    0    0    -1  
+$EndComp
+Connection ~ 4675 3250
+Wire Wire Line
+	4675 1450 4675 2050
+Connection ~ 4675 2050
+Connection ~ 4675 2650
+Wire Wire Line
+	4675 2650 4675 3250
+Wire Wire Line
+	4675 3250 5050 3250
+Wire Wire Line
+	4675 2050 5050 2050
+Wire Wire Line
+	4675 1450 5050 1450
+Wire Wire Line
+	4675 2650 5050 2650
+$Comp
+L power:GND #PWR08
+U 1 1 5D366F4B
+P 5925 6950
+F 0 "#PWR08" H 5925 6700 50  0001 C CNN
+F 1 "GND" H 5930 6777 50  0000 C CNN
+F 2 "" H 5925 6950 50  0001 C CNN
+F 3 "" H 5925 6950 50  0001 C CNN
+	1    5925 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5950 5925 5950
+Wire Wire Line
+	4675 6550 4675 6975
+Wire Wire Line
+	5550 5350 5925 5350
+Wire Wire Line
+	4675 5950 4675 6550
+Connection ~ 5925 6550
+Connection ~ 4675 6550
+Wire Wire Line
+	5925 5950 5925 6550
+Connection ~ 4675 5950
+Connection ~ 5925 5350
+$Comp
+L power:GND #PWR06
+U 1 1 5D366F67
+P 4675 6975
+F 0 "#PWR06" H 4675 6725 50  0001 C CNN
+F 1 "GND" H 4680 6802 50  0000 C CNN
+F 2 "" H 4675 6975 50  0001 C CNN
+F 3 "" H 4675 6975 50  0001 C CNN
+	1    4675 6975
+	1    0    0    -1  
+$EndComp
+Connection ~ 5925 5950
+Wire Wire Line
+	5925 5350 5925 5950
+Wire Wire Line
+	5925 4750 5925 5350
+Wire Wire Line
+	5925 6550 5925 6950
+Wire Wire Line
+	5550 6550 5925 6550
+Wire Wire Line
+	5550 4750 5925 4750
+Wire Wire Line
+	4675 4750 5050 4750
+Wire Wire Line
+	4675 5950 5050 5950
+Wire Wire Line
+	4675 6550 5050 6550
+Wire Wire Line
+	3100 6050 3100 6650
+Wire Wire Line
+	3100 6650 3100 7050
+Connection ~ 3100 6050
+Connection ~ 3100 6650
+Wire Wire Line
+	2725 4850 3100 4850
+Connection ~ 3100 5450
+$Comp
+L power:GND #PWR04
+U 1 1 5D370E65
+P 3100 7050
+F 0 "#PWR04" H 3100 6800 50  0001 C CNN
+F 1 "GND" H 3105 6877 50  0000 C CNN
+F 2 "" H 3100 7050 50  0001 C CNN
+F 3 "" H 3100 7050 50  0001 C CNN
+	1    3100 7050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 6650
+Wire Wire Line
+	2725 6050 3100 6050
+Wire Wire Line
+	3100 4850 3100 5450
+Wire Wire Line
+	2725 5450 3100 5450
+Wire Wire Line
+	3100 5450 3100 6050
+Wire Wire Line
+	1850 6650 1850 7075
+$Comp
+L power:GND #PWR02
+U 1 1 5D370E7B
+P 1850 7075
+F 0 "#PWR02" H 1850 6825 50  0001 C CNN
+F 1 "GND" H 1855 6902 50  0000 C CNN
+F 2 "" H 1850 7075 50  0001 C CNN
+F 3 "" H 1850 7075 50  0001 C CNN
+	1    1850 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 6650 3100 6650
+Wire Wire Line
+	1850 6650 2225 6650
+Wire Wire Line
+	1850 4850 2225 4850
+Wire Wire Line
+	4675 4750 4675 5950
+Wire Wire Line
+	1850 4850 1850 6650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D3199BB
+P 9100 1075
+F 0 "H1" H 9200 1121 50  0000 L CNN
+F 1 "MountingHole" H 9200 1030 50  0000 L CNN
+F 2 "Alchitry_Au:2m2ThroughHole" H 9100 1075 50  0001 C CNN
+F 3 "~" H 9100 1075 50  0001 C CNN
+	1    9100 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D31AA75
+P 9100 1250
+F 0 "H2" H 9200 1296 50  0000 L CNN
+F 1 "MountingHole" H 9200 1205 50  0000 L CNN
+F 2 "Alchitry_Au:2m2ThroughHole" H 9100 1250 50  0001 C CNN
+F 3 "~" H 9100 1250 50  0001 C CNN
+	1    9100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D31AC85
+P 9100 1600
+F 0 "H4" H 9200 1646 50  0000 L CNN
+F 1 "MountingHole" H 9200 1555 50  0000 L CNN
+F 2 "Alchitry_Au:2m2ThroughHole" H 9100 1600 50  0001 C CNN
+F 3 "~" H 9100 1600 50  0001 C CNN
+	1    9100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D31AC8F
+P 9100 1425
+F 0 "H3" H 9200 1471 50  0000 L CNN
+F 1 "MountingHole" H 9200 1380 50  0000 L CNN
+F 2 "Alchitry_Au:2m2ThroughHole" H 9100 1425 50  0001 C CNN
+F 3 "~" H 9100 1425 50  0001 C CNN
+	1    9100 1425
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
