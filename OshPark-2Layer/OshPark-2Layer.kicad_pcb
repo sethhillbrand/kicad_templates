@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-117-g0ee38653f)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-201-g3c8f901a1)")
 
   (general
     (thickness 1.6002)
@@ -12,7 +12,6 @@
   (page USLetter)
   (title_block
     (rev 1)
-    (company "Seth Hillbrand / KiCad Services Corp.")
   )
 
   (layers
@@ -60,7 +59,8 @@
     (mod_text_width 0.127)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0.0508)
+    (pad_to_mask_clearance 0)
+    (solder_mask_min_width 0.1016)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
