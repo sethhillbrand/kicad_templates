@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-201-g3c8f901a1)")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.6002)
@@ -31,7 +31,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -39,19 +39,19 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.1524)
-    (via_size 0.6858)
-    (via_drill 0.3302)
+    (segment_width 0.254)
+    (edge_width 0.0381)
+    (via_size 0.508)
+    (via_drill 0.254)
     (via_min_size 0.508)
     (via_min_drill 0.254)
     (user_via 0.6858 0.3302)
     (user_via 0.889 0.381)
     (uvia_size 0.6858)
-    (uvia_drill 0.3302)
+    (uvia_drill 0.254)
     (uvias_allowed no)
     (uvia_min_size 0)
     (uvia_min_drill 0)
-    (edge_width 0.0381)
-    (segment_width 0.254)
     (pcb_text_width 0.3048)
     (pcb_text_size 1.524 1.524)
     (mod_edge_width 0.127)
@@ -59,8 +59,7 @@
     (mod_text_width 0.127)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0)
-    (solder_mask_min_width 0.1016)
+    (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -96,13 +95,13 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.1524)
-    (trace_width 0.254)
-    (via_dia 0.6858)
-    (via_drill 0.3302)
+    (trace_width 0.1524)
+    (via_dia 0.508)
+    (via_drill 0.254)
     (uvia_dia 0.6858)
-    (uvia_drill 0.3302)
+    (uvia_drill 0.254)
+    (diff_pair_gap 0.1524)
     (diff_pair_width 0.1524)
-    (diff_pair_gap 0.254)
   )
 
 )
